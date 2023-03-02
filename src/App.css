@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  border-radius: 10px;
+width: 200px;
+height: 32px;
+border: 2px solid #9393C1;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+select{
+  border-radius: 10px;
+width: 200px;
+height: 32px;
+border: 2px solid #9393C1;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hea{
+  background-color: #ABABFF ;
+}
+.purco{
+  color: #ABABFF;
+  font-weight: bolder;
+}
+.purala{
+  display: none;
+}
+.stya{
+  background-color: #9393C1;
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.mainbtn{
+  background-color: #9393C1;
+  width: 282px;
+  margin-left: 40%;
+  height: 44px;
+  border-radius: 7px;
   color: white;
+  cursor: pointer;
+transition: 0.5s;
 }
-
-.App-link {
-  color: #61dafb;
+.mainbtn:hover{
+  opacity: 60%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.filebor{
+border: 3px dotted #9393C1;
+width: 200%;
+height: 200%;
+}
+@media (min-width:1200px) and (max-width:5920px){
+  .mar{
+    margin-left: 165px;
   }
-  to {
-    transform: rotate(360deg);
+  .filebor{
+    width: 300%;
+  }
+}
+@media (min-width:592px) and (max-width:1200px){
+  .mar{
+    margin-left: 100px;
+  }
+}
+@media (min-width:0px) and (max-width:592px){
+  .inap{
+    width: -webkit-fill-available !important;
+  }
+  .mainbtn{
+    margin-left: 0%;
   }
 }
